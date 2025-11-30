@@ -22,7 +22,7 @@ nav,p,section,article{
 .socialmedia a {
     text-decoration: none;
 }
-.hero{
+hero{
     position: relative;
 }
 .hero image {
@@ -68,5 +68,6 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+
 
 
