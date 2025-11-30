@@ -40,7 +40,7 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
-main image {
+image {
     width: 150px;
     height: auto;
     
@@ -68,4 +68,5 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+
 
