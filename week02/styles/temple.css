@@ -5,6 +5,12 @@ header,footer{
     color: #fff;
     font-size: 1.5rem;
 }
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
 img{ margin: 20px auto;
     max-width: 100%;
     box-shadow: 20px 20px 50px #333;}
@@ -19,3 +25,25 @@ section{
         }
 ul
 {margin: 10px 0 ;}
+
+h1{padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+h2{
+    border-bottom: 1px solid #222;
+}
+main{
+    width: 400px;
+    margin: 0px auto;
+
+}
+
+
+section{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #abe;
+    background-color: rgb(185, 192, 214);
+    font-size: .9rem;
+        }
