@@ -49,4 +49,9 @@ h1 , h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+nav,{
+    margin: 16px;
+    padding: 8px;
+    background-color #000;
+}
 
