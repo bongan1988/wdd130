@@ -12,8 +12,7 @@ image {
     width: 150px;
     height: auto;
     
-    
-}
+  }
 
 main { max-width: 840px;
 
@@ -45,10 +44,8 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-h1 , h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
+
+
 nav,{
     margin: 16px;
     padding: 8px;
