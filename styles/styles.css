@@ -44,4 +44,8 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+h1 , h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
 
