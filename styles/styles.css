@@ -36,6 +36,9 @@ aside {
   main image {
     width: 150px;
     height: auto;
+    border: #333;
+    padding: 0;
+    box-shadow: #000;
 }
 p {padding: 0;}
 
