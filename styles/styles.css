@@ -27,9 +27,10 @@ aside {
     color: #333;
     text-align: center;
 }
-   aside image {
-       width: 200px;
-       height: auto;
+  
+aside img {
+  width: 200px;
+  height: auto;
 }
 
  
