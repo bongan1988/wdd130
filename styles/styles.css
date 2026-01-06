@@ -37,6 +37,11 @@ aside {
     height: auto;
     
 }
+nav {
+  background-color: #00AA9A;
+  padding: 1rem;
+}
+
 p {padding: 0;}
 
 footer {
