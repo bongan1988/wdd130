@@ -32,10 +32,13 @@ aside {
        height: auto;
 }
 
-  main image {
-    width: 150px;
-    height: auto;
-    
+ 
+main img {
+  width: 300px;               
+  height: 200px;              
+  border: 2px solid #00AA9A; 
+  padding: 5px;               
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
 }
 nav {
   background-color: #00AA9A;
