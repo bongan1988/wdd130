@@ -41,6 +41,11 @@ nav {
   background-color: #00AA9A;
   padding: 1rem;
 }
+nav a {
+  color: #ffffff;       
+  padding: 10px;      
+  display: block;      
+}
 
 p {padding: 0;}
 
