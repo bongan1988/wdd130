@@ -1,11 +1,9 @@
-
 :root {
     --body-font: 'Arial, sans-serif';
     --heading-font: 'Helvetica, sans-serif';
     --primary-color: #2c3e50;
     --accent1-color: #e74c3c;
     --accent2-color: #3498db;
-    --color : var(--accent2-color)
 }
 
 
@@ -86,33 +84,4 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 
-}
-.hero article img {
-    float: right;
-    width: 125px;
-}
-.hero {
-    position: relative;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    color: white;
-}
-
-.hero article {
-    position: absolute;
-    bottom: 20%;
-    left: 10%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
 }
