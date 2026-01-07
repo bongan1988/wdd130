@@ -22,9 +22,6 @@ body {
     font-family: var(--body-font);
     color: var(accent1-color);
 }
-body {
-    color: var(--accent1-color);
-}
 
 header {
          width: 840px;
