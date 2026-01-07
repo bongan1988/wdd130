@@ -7,7 +7,7 @@
     --accent2-color: #3498db;
     --color : var(--accent2-color)
 }
-    
+
 
 
 nav a:hover {
@@ -90,4 +90,29 @@ footer {
 .hero article img {
     float: right;
     width: 125px;
+}
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
 }
