@@ -46,11 +46,14 @@ h1 {
     background-color: var(--accent1-color);
     color: #88800c3b;
 }
-main img {
-    width: 150px;
-    height: auto;
-    
-    }
+
+    main,
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 
 aside {
     width: 20rem;
@@ -83,6 +86,11 @@ footer {
   height: auto;
   display: block;
 }
+.hero {
+  width: 100%;
+  overflow: hidden;
+}
+
 
 .hero h1 {
   position: absolute;
@@ -96,4 +104,11 @@ footer {
   bottom: 20px;
   left: 20px;
   color: white;
+}
+section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+html, body {
+  overflow-x: hidden;
 }
