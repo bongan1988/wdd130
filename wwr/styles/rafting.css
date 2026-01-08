@@ -44,7 +44,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: #88800c3b;
 }
 main img {
     width: 150px;
@@ -57,7 +57,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(000/0.2);/*1️⃣ */
     padding: 1rem;
-    background-color: #eee;
+    background-color: #108152;
     color: #333;
     text-align: center;
 }
