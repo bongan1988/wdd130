@@ -69,6 +69,7 @@ aside image {
     width: 100px;
     height: auto;
     margin-bottom: 1rem;
+    box-sizing: border-box;
 }
 p {
     padding: 0;
