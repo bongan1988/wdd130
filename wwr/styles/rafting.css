@@ -28,6 +28,7 @@ header {
 h1 , h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+     color: #ffffff;
 }
 nav,p,section,article{
     margin: 16px;
