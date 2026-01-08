@@ -6,12 +6,9 @@
     --accent2-color: #2a9474;
 }
 
-
-
 nav a:hover {
     color: var(--accent2-color);
 }
-
 
 *{
     margin: 0;
@@ -38,9 +35,6 @@ nav,p,section,article{
 .socialmedia a {
     text-decoration: none;
 }
-.hero{
-    position: relative;
-}
 
 h1 {
     position:absolute;
@@ -58,8 +52,6 @@ main img {
     
     }
 
-
-
 aside {
     width: 20rem;
     margin: 1rem;
@@ -72,8 +64,6 @@ aside {
 aside image {
     width: 200px;
     height: auto;
-
-
 }
 p {
     padding: 0;
