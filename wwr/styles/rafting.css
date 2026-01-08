@@ -2,7 +2,7 @@
     --body-font: 'Arial, sans-serif';
     --heading-font: 'Helvetica, sans-serif';
     --primary-color: #2c3e50;
-    --accent1-color: #3c80e7;
+    --accent1-color: #0a9396;
     --accent2-color: #2a9474;
 }
 
@@ -17,7 +17,7 @@ nav a:hover {
 }
 body {
     font-family: var(--body-font);
-    color: var(accent1-color);
+    color: var(--accent1-color);
 }
 
 header {
