@@ -45,7 +45,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #88800c3b;
+    color: #9dca333b;
 }
 
     main,
@@ -59,10 +59,10 @@ h1 {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid #000;
+    border: 1px solid #bb1b1b;
     padding: 1rem;
-    background-color: #677e74;
-    color: #333;
+    background-color: #8a918e;
+    color: #c04f4f;
     text-align: center;
 }
 aside image {
@@ -74,7 +74,7 @@ p {
 }
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #530303;
     text-align: center;
 
 }
@@ -93,7 +93,6 @@ footer {
   width: 100%;
   overflow: hidden;
 }
-
 
 .hero h1 {
   position: absolute;
