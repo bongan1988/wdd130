@@ -55,15 +55,14 @@ h1 {
   padding: 0 1rem;
 }
 
-
 aside {
     width: 10rem;
     margin: 1rem;
     border: 1px solid #6832e6;
     padding: 1rem;
-    background-color: #f7f7f859;
-    color: #c04f4f;
+    background-color: rgb(247 247 248 / 45%);
     text-align: center;
+    color: rgb(170 60 60);
 }
 aside image {
     width: 100px;
@@ -112,9 +111,7 @@ section {
   max-width: 900px;
   margin: 0 auto;
 }
-html, body {
-  overflow-x: hidden;
-}
+
 .hero article img {
     float: right;
     margin: 0 0 1rem 1rem;
