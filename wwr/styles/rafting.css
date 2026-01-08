@@ -60,7 +60,10 @@ main img {
     width: 150px;
     height: auto;
     
-    
+    }
+
+.hero article img {
+    float: right;
 }
 
 aside {
@@ -75,6 +78,7 @@ aside {
 aside image {
     width: 200px;
     height: auto;
+
 
 }
 p {
