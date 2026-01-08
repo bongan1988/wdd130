@@ -82,9 +82,7 @@ footer {
 .hero {
   position: relative;
   background-color: var(--primary-dark);
-  color: var(--text-light);
-  width: 100%;
-  
+ color: var(--text-light);
 }
 
 .hero img {
@@ -92,6 +90,11 @@ footer {
   height: auto;
   display: block;
 }
+.hero {
+  width: 100%;
+  overflow: hidden;
+}
+
 .hero h1 {
   position: absolute;
   top: 20px;
