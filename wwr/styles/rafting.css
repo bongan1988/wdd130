@@ -83,7 +83,7 @@ footer {
 .hero {
   position: relative;
   background-color: var(--primary-dark);
- color: #FFFF00
+ color: hwb(60 0% 88%)
 }
 
 .hero img {
