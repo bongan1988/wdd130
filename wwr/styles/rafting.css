@@ -14,13 +14,13 @@
 }
 body {
     font-family: var(--body-font);
-    color: rgb(86, 115, 5);
+    color: rgb(5, 110, 115);
 }
 
 header {
          width: 840px;
-         margin: 0 auto;
-         }
+        margin: 0 auto;
+}
  h2 {
 
     font-family: var(--heading-font);
