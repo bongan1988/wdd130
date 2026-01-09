@@ -6,6 +6,9 @@
     --accent2-color: #2a9474;
     
 }
+a {
+  color: var(--accent2-color);
+}
 
 *{
     
