@@ -7,10 +7,6 @@
     
 }
 
-nav a:hover {
-    color: var(--accent2-color);
-}
-
 *{
     
     padding: 0;
@@ -18,25 +14,21 @@ nav a:hover {
 }
 body {
     font-family: var(--body-font);
-    color: rgb(5, 110, 115);
+    color: rgb(86, 115, 5);
 }
 
 header {
          width: 840px;
-        margin: 0 auto;
-}
+         margin: 0 auto;
+         }
  h2 {
-
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    color: rgb(148, 204, 19);
-}
+     font-family: var(--heading-font);
+     color: var(--primary-color);
+     color: rgb(148, 204, 19);
+    }
 nav,p,section,article{
     margin: 16px;
     padding: 8px;
-}
-.socialmedia a {
-    text-decoration: none;
 }
 
 h1 {
