@@ -124,6 +124,18 @@ section {
   max-width: 900px;
   margin: 0 auto;
 }
+.riverstone-history {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* left and right flexible, middle auto for image */
+  gap: 20px; /* space between columns */
+  align-items: center; /* vertically center content */
+}
+
+.riverstone-history img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .hero article img {
     float: right;
