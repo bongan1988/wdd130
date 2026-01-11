@@ -21,11 +21,13 @@ a {
   color: var(--accent2-color);
 }
 
-body {
-    font-family: var(--body-font);
-    color: rgb(5, 110, 115);
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;   /* prevents side scrolling */
+  font-family: var(--body-font);
+  color: rgb(5, 110, 115);
 }
-
 header {
          width: 840px;
         margin: 0 auto;
