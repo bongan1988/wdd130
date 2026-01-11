@@ -6,6 +6,16 @@
     --accent2-color: #411f04;
     
 }
+.top-bar {
+  display: flex;
+  align-items: center;   
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 80px;     
+}
 
 a {
   color: var(--accent2-color);
