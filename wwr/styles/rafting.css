@@ -28,7 +28,7 @@ header {
 
     font-family: var(--heading-font);
     color: var(--primary-color);
-    color: rgb(148, 204, 19);
+    
 }
 nav,p,section,article{
     margin: 16px;
