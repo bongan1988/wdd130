@@ -10,11 +10,7 @@ a {
   color: var(--accent2-color);
 }
 
-*{
-    
-    padding: 0;
-    
-}
+
 body {
     font-family: var(--body-font);
     color: rgb(5, 110, 115);
