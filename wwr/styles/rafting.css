@@ -79,17 +79,15 @@ footer {
 .hero {
   position: relative;
   background-color: var(--primary-dark);
- color: hwb(60 0% 88%)
+ color: hwb(60 0% 88%);
+ width: 100%;
+  
 }
 
 .hero img {
   width: 100%;
   height: auto;
   display: block;
-}
-.hero {
-  width: 100%;
-  overflow: hidden;
 }
 
 .hero h1 {
