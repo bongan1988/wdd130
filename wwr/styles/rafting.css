@@ -139,7 +139,7 @@ section figure {
 
 section figure img {
   width: 100%;
-  aspect-ratio: 4 / 3;   
+  aspect-ratio: 2 / 1;   
   object-fit: cover;     
   display: block;
   border-radius: 8px;
