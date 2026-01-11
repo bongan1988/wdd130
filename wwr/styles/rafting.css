@@ -24,6 +24,7 @@ html, body {
   overflow-x: hidden;   /* prevents side scrolling */
   font-family: var(--body-font);
   color: rgb(92, 71, 25);
+  
 }
 header {
          width: 840px;
@@ -99,10 +100,14 @@ footer {
   text-align: center;
 }
 
-.hero img {
+.hero-img {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .hero h1 {
