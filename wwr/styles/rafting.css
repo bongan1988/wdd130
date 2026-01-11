@@ -6,6 +6,19 @@
     --accent2-color: #411f04;
     
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("images/background.jpg"); /* your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 a {
   color: var(--accent2-color);
 }
