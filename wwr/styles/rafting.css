@@ -104,9 +104,8 @@ footer {
   width: 100%;
   height: auto;
   display: block;
-  position: fixed;
-   object-fit: cover;
-}
+  
+   }
 
 .hero h1 {
   position: absolute;
