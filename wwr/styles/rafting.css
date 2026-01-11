@@ -139,7 +139,7 @@ section {
   width: 125px;
 }
 article img {
-  background-color: rgba(255, 255, 255, 0.6); /* transparent background */
+  background-color: rgba(128, 128, 128, 0.5);; /* transparent background */
   padding: 8px;                              /* space so background shows */
   border-radius: 8px;                        /* optional, looks cleaner */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
