@@ -156,27 +156,50 @@ section h2 {
   text-align: center;
 }
 
-section figure {
-  margin: 0;
-}
-
-section figure img {
-  width: 100%;
-  aspect-ratio: 2 / 1;   
-  object-fit: cover;     
-  display: block;
-  border-radius: 8px;
-}
-
-section figcaption {
-  text-align: center;
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-}
 nav {
   background-color: steelblue;
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+/* Figure setup */
+section figure {
+  position: relative;
+  margin: 0;
+  height: 220px;              /* equal height for all images */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Image fills figure evenly */
+section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;          /* crops without distortion */
+  display: block;
+}
+
+/* Caption overlay */
+section figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.6rem;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Optional hover polish */
+section figure:hover figcaption {
+  background: rgba(0, 0, 0, 0.75);
 }
