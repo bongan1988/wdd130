@@ -1,8 +1,8 @@
 :root {
     --body-font: 'Arial, sans-serif';
     --heading-font: 'Helvetica, sans-serif';
-    --primary-dark: #bad2d3;
-    --accent1-color: #888b8b;
+    --primary-dark: #edf1f1;
+    --accent1-color: #090a0a;
     --accent2-color: #411f04;
     
 }
@@ -26,7 +26,7 @@ html, body {
   height: 100%;
   overflow-x: hidden;   /* prevents side scrolling */
   font-family: var(--body-font);
-  color: rgb(5, 110, 115);
+  color: rgb(13, 17, 17);
 }
 header {
          width: 840px;
@@ -71,7 +71,7 @@ aside {
     padding: 1rem;
     background-color: rgb(247 247 248 / 45%);
     text-align: center;
-    color: rgb(170 60 60);
+    color: rgb(148, 80, 16);
 }
 aside image {
     width: 100px;
@@ -84,7 +84,7 @@ p {
 }
 footer {
     margin-top: 15px;
-    border-top: 1px solid #530303;
+    border-top: 1px solid #641e03;
     text-align: center;
 
 }
@@ -118,7 +118,7 @@ footer {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  color: rgb(119, 72, 72);
+  color: rgb(27, 16, 16);
 }
 section {
   max-width: 900px;
@@ -133,7 +133,7 @@ section {
   width: 125px;
 }
 article img {
-  background-color: rgba(128, 128, 128, 0.5);; /* transparent background */
+  background-color: rgba(86, 130, 136, 0.5);; /* transparent background */
   padding: 8px;                              /* space so background shows */
   border-radius: 8px;                        /* optional, looks cleaner */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
