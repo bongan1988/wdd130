@@ -138,6 +138,12 @@ article img {
   border-radius: 8px;                        /* optional, looks cleaner */
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
 }
+article p {
+  background-color: #ffffff;
+  padding: 1rem;          /* space inside the white area */
+  margin: 0;              /* optional: removes default gap */
+  border-radius: 6px;     /* optional: softer edges */
+}
 
 * {
     margin: 0;
