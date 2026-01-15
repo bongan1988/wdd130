@@ -15,7 +15,7 @@
 
 
 a {
-   color: #ffffff;
+  color: var(--accent2-color);
 }
 
 html, body {
@@ -89,13 +89,14 @@ footer {
 }
 .hero {
   position: relative;
-    width: 100%;
+  background-color: var(--primary-dark);
+  width: 100%;
     display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(40, 60, 60);
-  color: #ffffff;
+
+  color: white;
   text-align: center;
 }
 
@@ -174,8 +175,7 @@ section h2 {
 }
 
 nav {
-  background-color: rgb(70, 130, 180);
-  color: #ffffff;
+  background-color: steelblue;
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
