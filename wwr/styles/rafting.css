@@ -175,7 +175,7 @@ section h2 {
 }
 
 nav {
-  background-color: rgb(231, 108, 7);
+  background-color: #edf1f1
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
