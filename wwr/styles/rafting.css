@@ -3,7 +3,7 @@
     --heading-font: 'Helvetica, sans-serif';
     --primary-dark: #edf1f1;
     --accent1-color: #090a0a;
-   --accent2-color: #411f04
+   --accent2-color: #000000
     
 }
 .top-bar {
@@ -175,7 +175,7 @@ section h2 {
 }
 
 nav {
-  background-color: steelblue;
+  background-color: rgb(231, 108, 7);
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
