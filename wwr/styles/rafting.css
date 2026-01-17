@@ -28,7 +28,7 @@ html, body {
 .site-header {
   display: flex;
   align-items: center;        /* vertically align logo & nav */
-  justify-content: space-between; /* logo left, nav right */
+  justify-content: left; /* logo left, nav right */
   padding: 2rem 3rem;
 }
 
