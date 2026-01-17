@@ -25,13 +25,27 @@ html, body {
   color: rgb(92, 71, 25);
   
 }
-.header {
-    display: flex;
-    align-items: right;
-    justify-content: space-between;
-    padding: 15px 30px;
-    border: 1px solid #999;
+.site-header {
+  display: flex;
+  align-items: center;        /* vertically align logo & nav */
+  justify-content: space-between; /* logo left, nav right */
+  padding: 1rem 2rem;
 }
+
+.logo {
+  max-height: 70px; /* adjust to fit your design */
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem; /* space between links */
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
  h2 {
 
     font-family: var(--heading-font);
