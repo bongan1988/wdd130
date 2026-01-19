@@ -24,23 +24,23 @@ html, body {
   font-family: var(--body-font);
   color: rgb(92, 71, 25);
   
-}
+} /* vertically align logo & nav 
 .site-header {
   display: flex;
   align-items: last baselines;        /* vertically align logo & nav */
   background-color: rgba(221, 134, 20, 0.137);
-  justify-content: space-between; /* logo left, nav right */
+  justify-content: space-between; /* logo left, nav right 
   padding: 2rem 3rem;
-}
-
+                                        
+*/
 .logo {
   max-height: 200px; /* adjust to fit your design */
 }
-
+/* 
 nav {
   display: flex;
   gap: 1.5rem; /* space between links */
-}
+   */
 
 nav a {
   text-decoration: none;
@@ -239,4 +239,31 @@ section figcaption {
 /* Optional hover polish */
 section figure:hover figcaption {
   background: rgba(0, 0, 0, 0.75);
+}
+
+.flex-container {
+    border: 3px dashed darkcyan;
+    background-color: lightyellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 250px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 20%);
+    padding: 0.5rem;
+    background-color: #bbb;
+    color: #333;
+}
+.itemHome {
+    min-height: 500px;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* even spacing like the image */
+    align-items: center;
+    margin: 0;
+    padding: 65px 0;
 }
