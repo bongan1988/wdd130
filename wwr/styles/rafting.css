@@ -43,9 +43,10 @@ p,section,article{
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a {
+.socialmedia {
     text-decoration: none;
-    
+    text-align: right;
+       
 }
 
 h1 {
@@ -66,27 +67,13 @@ h1 {
   padding: 0 1rem;
 }
 
-aside {
-    width: 100rem;
-    margin: 1rem;
-    border: 1px solid;
-    padding: 1rem;
-    background-color: rgba(247, 247, 248, 0.151);
-    text-align: center;
-    color: rgb(148, 80, 16);
-}
-aside image {
-    width: 100px;
-    height: auto;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    box-shadow: #090a0a 2px 2px 5px;
-}
+
+
 p {
     padding: 0;
 }
 footer {
-    margin-top: 15px;
+    margin-top: 1px;
     border-top: 1px solid #641e03;
     justify-content: space-between;
     text-align: center;
@@ -107,7 +94,7 @@ footer {
 .hero img {
   width: 100%;
   height: auto;
-  display: block;
+  display: inline-block;
   
    }
 
@@ -129,14 +116,12 @@ section {
   margin: 0 auto;
 }
 
-
-
 .hero article img {
     float: right;
     margin: 0 0 1rem 1rem;
     color: rgb(89, 112, 7);
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-  width: 125px;
+  width: 135px;
 }
 article img {
   background-color: rgba(86, 130, 136, 0.5);; /* transparent background */
@@ -150,7 +135,6 @@ article p {
   margin: 0;              /* optional: removes default gap */
   border-radius: 6px;     /* optional: softer edges */
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -211,45 +195,7 @@ section figure:hover figcaption {
   background: rgba(0, 0, 0, 0.75);
 }
 
-.flex-container {
-    border: 3px dashed darkcyan;
-    background-color: lightyellow;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.flex-item {
-    width: 250px;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 20%);
-    padding: 0.5rem;
-    background-color: #bbb;
-    color: #333;
-}
-.itemHome {
-    min-height: 500px;
-}
-.nav-menu {
-    list-style: none;
-    display: flex;
-    justify-content: space-around; /* even spacing like the image */
-    align-items: center;
-    margin: 0;
-    padding: 65px 0;
-}
-.history h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-.flex-rows {
-  display: flex;
-  flex-direction: column; /* stack rows vertically */
-  gap: 15px;
-}
 
-.row {
-  padding: 15px;
-  background-color: #f2f2f2;
-  text-align: center;
-}
+
