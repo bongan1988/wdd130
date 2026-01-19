@@ -24,15 +24,7 @@ html, body {
   font-family: var(--body-font);
   color: rgb(92, 71, 25);
   
-} /* vertically align logo & nav 
-.site-header {
-  display: flex;
-  align-items: last baselines;        /* vertically align logo & nav */
-  background-color: rgba(221, 134, 20, 0.137);
-  justify-content: space-between; /* logo left, nav right 
-  padding: 2rem 3rem;
-                                        
-*/
+} 
 .logo {
   max-height: 200px; /* adjust to fit your design */
 }
