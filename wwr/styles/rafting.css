@@ -51,14 +51,12 @@ h1 {
     color: #fff
 }
 
-    main,
+    main, /* keeping hero image in a container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
 }
-
-
 
 p {
     padding: 0;
@@ -85,7 +83,8 @@ footer {
 .hero img {
   width: 100%;
   height: auto;
-  display: inline-block;
+  object-fit: cover;
+  display: block;
   
    }
 
@@ -101,6 +100,17 @@ footer {
   bottom: 20px;
   left: 20px;
   color: rgb(27, 16, 16);
+}
+
+.hero-overlay {     /* riverstone shadow */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 95%;
+  height: 90%;
+
+ 
 }
 section {
   max-width: 900px;
