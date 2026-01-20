@@ -233,3 +233,25 @@ section figure:hover figcaption {
 }
 /* Logo  and header css end*/
 /*##############################################################################*/
+.flex-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.col-1 {
+    grid-column: span 1;
+}
+.col-2 {
+    grid-column: span 2;
+    
+}
+.col-2 img {
+    width: 900%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    justify-content: flex-end;
+}
+.col-3 {
+    grid-column: span 3;
+}
