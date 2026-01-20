@@ -19,15 +19,6 @@ html, body {
   color: rgb(92, 71, 25);
   
 } 
-.logo {
-  max-height: 200px; /* adjust to fit your design */
-}
-/* 
-nav {
-  display: flex;
-  gap: 1.5rem; /* space between links */
-   */
-
 nav a {
   text-decoration: none;
   font-weight: 600;
@@ -251,11 +242,11 @@ section figure:hover figcaption {
   border: 4px solid #ffffff;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
-
+/* Logo  and header css start*/
 /* Header wrapper */
 .site-header {
   width: 100%;
-  background-color: #ffffff;
+  background-color: hsla(200, 14%, 96%, 0.349);
   border-bottom: 2px solid #e6e6e6;
 }
 
@@ -270,7 +261,6 @@ section figure:hover figcaption {
   justify-content: space-between;
 }
 
-/* Logo  and header css start*/
 .logo img {
   height: 100px;
   width: auto;
@@ -279,7 +269,7 @@ section figure:hover figcaption {
 /* Navigation */
 .main-nav {
   display: flex;
-  gap: 60px;
+  gap: 40px;
 }
 
 .main-nav a {
