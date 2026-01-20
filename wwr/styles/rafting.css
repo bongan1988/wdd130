@@ -125,16 +125,17 @@ section {
   width: 135px;
 }
 article img {
-  background-color: rgba(86, 130, 136, 0.5);; /* transparent background */
+  background-color: rgba(16, 17, 17, 0.37);; /* transparent background */
   padding: 8px;                              /* space so background shows */
   border-radius: 8px;                        /* optional, looks cleaner */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 article p {
-  background-color: rgba(255, 165, 0, 0.5);
-  padding: 1rem;          /* space inside the white area */
+  background-color: rgba(114, 111, 106, 0.123);
+  padding: 3rem;          /* space inside the white area */
   margin: 0;              /* optional: removes default gap */
-  border-radius: 6px;     /* optional: softer edges */
+  border-radius: 9px;     /* optional: softer edges */
+  box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.3);
 }
 * {
     margin: 0;
