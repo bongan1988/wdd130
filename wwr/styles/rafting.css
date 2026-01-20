@@ -111,10 +111,7 @@ footer {
 
  
 }
-section {
-  max-width: 900px;
-  margin: 0 auto;
-}
+ 
 
 .hero article img {
     float: right;
@@ -153,6 +150,8 @@ section {   /* section images */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* Figure setup */
