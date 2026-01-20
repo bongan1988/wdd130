@@ -246,12 +246,16 @@ section figure:hover figcaption {
     
 }
 .col-2 img {
-    width: 900%;
+    width: 600%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 9px;
+    display: block;
     object-fit: cover;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    box-shadow: #090a0a 0px 4px 8px 0px, #090a0a 0px 6px 20px 0px;
 }
 .col-3 {
-    grid-column: span 3;
+  grid-column: span 3;
+  display: flex;
+  justify-content: flex-end;
 }
