@@ -270,7 +270,7 @@ section figure:hover figcaption {
   justify-content: space-between;
 }
 
-/* Logo */
+/* Logo  and header css start*/
 .logo img {
   height: 85px;
   width: auto;
@@ -294,3 +294,4 @@ section figure:hover figcaption {
   border-bottom: 2px solid #1f6fa5;
   padding-bottom: 4px;
 }
+/* Logo  and header css end*/
