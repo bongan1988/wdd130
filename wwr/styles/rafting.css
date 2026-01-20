@@ -272,21 +272,21 @@ section figure:hover figcaption {
 
 /* Logo  and header css start*/
 .logo img {
-  height: 85px;
+  height: 100px;
   width: auto;
 }
 
 /* Navigation */
 .main-nav {
   display: flex;
-  gap: 40px;
+  gap: 60px;
 }
 
 .main-nav a {
   text-decoration: none;
-  font-weight: 600;
-  color: #0b3a5a;
-  font-size: 1rem;
+  font-weight: 900;
+  color: #70590c;
+  font-size: 2rem;
 }
 
 .main-nav a:hover {
