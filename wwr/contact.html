@@ -25,57 +25,57 @@
     </header> <!-- .site-header -->
 
     <main>
- 
+      <h1>Contact us</h1>
   </div>
 
   <!-- History Section -->
   <section class="history-section">
     <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865839.2766867444!2d115.30204257531683!3d-32.03719239970954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32966cdb47733d%3A0x304f0b535df55d0!2sPerth%20WA%2C%20Australia!5e0!3m2!1sen!2sza!4v1769273760286!5m2!1sen!2sza" 
-     
-       referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>  
       <div>
-        <form action="#" method="post" class="contact-form">
+       <main>
+  <form action="#" method="post">
 
-  <!-- Name -->
- <div class="form-row">
-  <label for="name">Name</label>
-  <textarea id="name" name="name" rows="2" placeholder="Enter your name"></textarea>
-</div>
+    <!-- Name (text input REQUIRED) -->
+    <div class="form-row">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+    </div>
 
+    <!-- Message Purpose (EXACTLY 3 radio buttons) -->
+    <fieldset>
+      <legend>Message Purpose</legend>
 
-  <!-- Email -->
-  <label for="email">Email</label><br>
-  <textarea id="email" name="email" rows="2" placeholder="Enter your email address"></textarea><br><br>
+      <input type="radio" id="general" name="purpose" value="general">
+      <label for="general">General Enquiry</label><br>
 
-  <!-- Purpose -->
-<fieldset>
-  <legend>Message Purpose</legend>
+      <input type="radio" id="reservation" name="purpose" value="reservation">
+      <label for="reservation">Reservation Question</label><br>
 
-  <input type="radio" id="general" name="purpose" value="general">
-  <label for="general">General Enquiry</label><br>
+      <input type="radio" id="suggestion" name="purpose" value="suggestion">
+      <label for="suggestion">Website Suggestion</label>
+    </fieldset>
 
-  <input type="radio" id="reservation" name="purpose" value="reservation">
-  <label for="reservation">Reservation Question</label><br>
+    <!-- Message (ONE textarea) -->
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+    </div>
 
-  <input type="radio" id="suggestion" name="purpose" value="suggestion">
-  <label for="suggestion">Website Suggestion</label>
-</fieldset><br>
+    <!-- Subscribe (ONE checkbox) -->
+    <div class="form-row">
+      <input type="checkbox" id="subscribe" name="subscribe">
+      <label for="subscribe">Would you like to subscribe?</label>
+    </div>
 
+    <!-- Submit button -->
+    <button type="submit">Send Message</button>
 
-  <!-- Message -->
-  <label for="message">Message</label><br>
-  <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea><br><br>
+  </form>
+</main>
 
-  <!-- Subscribe -->
-  <input type="checkbox" id="subscribe" name="subscribe">
-  <label for="subscribe">Would you like to subscribe?</label><br><br>
-
-  <!-- Submit -->
-  <button type="submit">Get in Touch</button>
-
-</form>
 
       </div>
    
