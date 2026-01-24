@@ -32,28 +32,37 @@
   <section class="history-section">
     <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865839.2766867444!2d115.30204257531683!3d-32.03719239970954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32966cdb47733d%3A0x304f0b535df55d0!2sPerth%20WA%2C%20Australia!5e0!3m2!1sen!2sza!4v1769273760286!5m2!1sen!2sza" 
-      width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+     
        referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>  
       <div>
         <form action="#" method="post" class="contact-form">
 
   <!-- Name -->
-  <label for="name">Name</label><br>
-  <textarea id="name" name="name" rows="2" placeholder="Enter your name"></textarea><br><br>
+ <div class="form-row">
+  <label for="name">Name</label>
+  <textarea id="name" name="name" rows="2" placeholder="Enter your name"></textarea>
+</div>
+
 
   <!-- Email -->
   <label for="email">Email</label><br>
   <textarea id="email" name="email" rows="2" placeholder="Enter your email address"></textarea><br><br>
 
   <!-- Purpose -->
-  <label for="purpose">Message Purpose</label><br>
-  <select id="purpose" name="purpose">
-    <option value="">-- Select an option --</option>
-    <option value="general">General Enquiry</option>
-    <option value="reservation">Reservation Question</option>
-    <option value="suggestion">Website Suggestion</option>
-  </select><br><br>
+<fieldset>
+  <legend>Message Purpose</legend>
+
+  <input type="radio" id="general" name="purpose" value="general">
+  <label for="general">General Enquiry</label><br>
+
+  <input type="radio" id="reservation" name="purpose" value="reservation">
+  <label for="reservation">Reservation Question</label><br>
+
+  <input type="radio" id="suggestion" name="purpose" value="suggestion">
+  <label for="suggestion">Website Suggestion</label>
+</fieldset><br>
+
 
   <!-- Message -->
   <label for="message">Message</label><br>
