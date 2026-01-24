@@ -267,3 +267,24 @@ section figure:hover figcaption {
 .address {
   text-align: center;
 }
+.info-box {
+  border: 1px solid #eff2f5; /* border color */
+  background-color: #f4f7f8; /* soft background */
+  padding: 20px;              /* space inside box */
+  max-width: 400px;           /* optional: box width */
+  margin: 20px auto;          /* center box on page */
+  border-radius: 10px;        /* rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optional shadow */
+  text-align: center;         /* center text inside box */
+}
+
+.info-box h2.river {
+  margin-bottom: 10px;       /* spacing between title and address */
+}
+
+.info-box h3.address {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.9;
+}
+
