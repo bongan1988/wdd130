@@ -25,80 +25,55 @@
     </header> <!-- .site-header -->
 
     <main>
-  <h1>Contact RiverStone</h1>
+      <h1>Contact RiverStone</h1>
+  </div>
 
-  <!-- Contact & Map Section -->
+  <!-- History Section -->
   <section class="history-section">
-
     <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865839.2766867444!2d115.30204257531683!3d-32.03719239970954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32966cdb47733d%3A0x304f0b535df55d0!2sPerth%20WA%2C%20Australia!5e0!3m2!1sen!2sza!4v1769273760286!5m2!1sen!2sza"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865839.2766867444!2d115.30204257531683!3d-32.03719239970954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32966cdb47733d%3A0x304f0b535df55d0!2sPerth%20WA%2C%20Australia!5e0!3m2!1sen!2sza!4v1769273760286!5m2!1sen!2sza" 
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>  
+      <div>
+       <main>
+  <form action="#" method="post">
+
+    <!-- Name (text input REQUIRED) -->
+    <div class="form-row">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
     </div>
 
-    <!-- FORM (ONLY ONE, INSIDE MAIN) -->
-    <form action="#" method="post">
+    <!-- Message Purpose (EXACTLY 3 radio buttons) -->
+    <fieldset>
+      <legend>Message Purpose</legend>
 
-      <!-- Name -->
-      <div class="form-row">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
-      </div>
+      <input type="radio" id="general" name="purpose" value="general">
+      <label for="general">General Enquiry</label><br>
 
-      <!-- Message Purpose -->
-      <fieldset>
-        <legend>Message Purpose</legend>
+      <input type="radio" id="reservation" name="purpose" value="reservation">
+      <label for="reservation">Reservation Question</label><br>
 
-        <input type="radio" id="general" name="purpose" value="general">
-        <label for="general">General Enquiry</label><br>
+      <input type="radio" id="suggestion" name="purpose" value="suggestion">
+      <label for="suggestion">Website Suggestion</label>
+    </fieldset>
 
-        <input type="radio" id="reservation" name="purpose" value="reservation">
-        <label for="reservation">Reservation Question</label><br>
+    <!-- Message (ONE textarea) -->
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+    </div>
 
-        <input type="radio" id="suggestion" name="purpose" value="suggestion">
-        <label for="suggestion">Website Suggestion</label>
-      </fieldset>
+    <!-- Subscribe (ONE checkbox) -->
+    <div class="form-row">
+      <input type="checkbox" id="subscribe" name="subscribe">
+      <label for="subscribe">Would you like to subscribe?</label>
+    </div>
 
-      <!-- Message -->
-      <div class="form-row">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4"></textarea>
-      </div>
+    <!-- Submit button -->
+    <button type="submit">Send Message</button>
 
-      <!-- Subscribe -->
-      <div class="form-row">
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <label for="subscribe">Would you like to subscribe?</label>
-      </div>
-
-      <!-- Submit -->
-      <button type="submit">Send Message</button>
-
-    </form>
-  </section>
-
-  <!-- Team Section -->
-  <aside class="riverstone-history">
-    <section>
-      <h2>We Are Here To Serve You!</h2>
-
-      <figure>
-        <img src="images/ceo.jpg" alt="Our CEO">
-        <figcaption>CEO</figcaption>
-      </figure>
-
-      <figure>
-        <img src="images/director.jpg" alt="Our Director">
-        <figcaption>Director</figcaption>
-      </figure>
-
-      <figure>
-        <img src="images/coo.jpg" alt="Our COO">
-        <figcaption>COO</figcaption>
-      </figure>
-    </section>
-  </aside>
+  </form>
 </main>
 
 
