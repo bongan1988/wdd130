@@ -273,7 +273,7 @@ section figure:hover figcaption {
   padding: 20px;              /* space inside box */
   max-width: 400px;           /* optional: box width */
   margin: 20px auto;          /* center box on page */
-  border-radius: 10px;        /* rounded corners */
+  border-radius: 0px;        /* rounded corners */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optional shadow */
   text-align: center;         /* center text inside box */
 }
@@ -286,5 +286,62 @@ section figure:hover figcaption {
   margin: 0;
   font-weight: normal;
   line-height: 1.9;
+}
+
+/* Section spacing */
+.contacts {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f4f7f8;
+}
+
+/* Map container */
+.map {
+  width: 100%;
+  max-width: 1500px;   /* control overall width */
+  height: 250px;       /* adjust height here */
+  margin: 0 auto;      /* center horizontally */
+  border-radius: 8px;
+  overflow: hidden;    /* keeps rounded corners */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Google map iframe */
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* Center everything */
+.team section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 90px;              /* 👈 increase space between images */
+  flex-wrap: wrap;
+}
+
+/* Title full width */
+.team h2 {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+
+
+/* Image styling */
+.team img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
