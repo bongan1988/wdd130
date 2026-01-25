@@ -278,9 +278,7 @@ section figure:hover figcaption {
   text-align: center;         /* center text inside box */
 }
 
-.info-box h2.river {
-  margin-bottom: 10px;       /* spacing between title and address */
-}
+
 
 .info-box h3.address {
   margin: 0;
