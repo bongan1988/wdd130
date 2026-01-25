@@ -39,8 +39,8 @@ p,section,article{
     text-align: right;
        
 }
-
-h1 {
+/* h1 declaration not in use affecting c page */
+h6 {
     position:absolute;
     top: 20px;
     width: 100%;
@@ -50,7 +50,7 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff
 }
-
+/*h1 declaration not in use affecting c page */
     main, /* keeping hero image in a container */
 .container {
   max-width: 1200px;
@@ -415,7 +415,7 @@ button {
 
 .page-banner {
   background-color: #c9d0d8; /* deep navy */
-  padding: 28px 16px;
+  padding: 18px 16px;
   text-align: center;
 }
 
@@ -424,6 +424,6 @@ button {
   color: #ffffff;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-size: 2.2rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.5px;
 }
