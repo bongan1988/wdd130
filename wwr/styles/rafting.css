@@ -268,7 +268,7 @@ section figure:hover figcaption {
   border: 1px solid #eff2f5; /* border color */
   background-color: #f4f7f8; /* soft background */
   padding: 20px;              /* space inside box */
-  max-width: 400px;           /* optional: box width */
+  max-width: 700px;           /* optional: box width */
   margin: 20px auto;          /* center box on page */
   border-radius: 0px;        /* rounded corners */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optional shadow */
@@ -413,17 +413,3 @@ button {
   cursor: pointer;
 }
 
-.page-banner {
-  background-color: #c9d0d8; /* deep navy */
-  padding: 18px 16px;
-  text-align: center;
-}
-
-.page-banner h1 {
-  margin: 0;
-  color: #ffffff;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-  font-size: 2.2rem;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
