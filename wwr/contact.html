@@ -37,14 +37,46 @@
 </div>
 
 
- <section class="contacts">
-  <div class="map">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865839.2766867444!2d115.30204257531683!3d-32.03719239970954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32966cdb47733d%3A0x304f0b535df55d0!2sPerth%20WA%2C%20Australia!5e0!3m2!1sen!2sza!4v1769273760286!5m2!1sen!2sza"
+ <section class="contact-container">
+
+  <!-- Map -->
+  <div class="map-box">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865839.2766867444!2d115.30204257531683!3d-32.03719239970954"
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
+
+  <!-- Contact Form -->
+  <div class="form-box">
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Name">
+
+      <label>Email:</label>
+      <input type="email" placeholder="e-mail">
+
+      <fieldset>
+        <legend>Message Purpose:</legend>
+        <label><input type="radio" name="purpose"> General Inquiry</label>
+        <label><input type="radio" name="purpose"> Reservation Question</label>
+        <label><input type="radio" name="purpose"> Website Suggestion</label>
+      </fieldset>
+
+      <textarea placeholder="message"></textarea>
+
+      <label class="checkbox">
+        <input type="checkbox">
+        Please Subscribe me to the monthly newsletter
+      </label>
+
+      <button type="submit">Get in Touch!</button>
+    </form>
+  </div>
+
+</section>
+
   
 </section>
 
