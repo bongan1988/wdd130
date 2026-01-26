@@ -413,3 +413,195 @@ button {
   cursor: pointer;
 }
 
+
+/* ===============================
+   GLOBAL RESET & BASE STYLES trips page
+================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===============================
+   MAIN LAYOUT
+================================ */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+/* ===============================
+   PAGE INTRO
+================================ */
+.page-intro {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.page-intro h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.page-intro p {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* ===============================
+   TRIPS GRID
+================================ */
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 1rem;
+}
+
+/* ===============================
+   TRIP CARD
+================================ */
+.trip-card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding: 1.75rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trip-card h2 {
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 1rem;
+}
+
+.trip-card p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* ===============================
+   TRIP DETAILS
+================================ */
+.trip-details ul {
+  list-style: none;
+  margin-bottom: 1.25rem;
+}
+
+.trip-details li {
+  padding: 0.35rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* ===============================
+   EQUIPMENT SECTION
+================================ */
+.equipment h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.equipment li {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.btn {
+  align-self: flex-start;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 0.6rem 1.4rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #000000;
+  transform: translateY(-1px);
+}
+
+
+
+/* ===============================
+   BASE STYLES
+================================ */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* ===============================
+   SECTION WRAPPER
+================================ */
+.trips-overview {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border: 1px solid #dddddd;
+}
+
+/* ===============================
+   HEADING
+================================ */
+.trips-overview h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+/* ===============================
+   TABLE STYLING
+================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+thead {
+  background-color: #24424f; /* dark blue-grey like image */
+  color: #ffffff;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 0.75rem 0.8rem;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* ===============================
