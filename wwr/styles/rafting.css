@@ -495,16 +495,6 @@ main {
 /* ===============================
    TRIP DETAILS
 ================================ */
-.trip-details ul {
-  list-style: none;
-  margin-bottom: 1.25rem;
-}
-
-.trip-details li {
-  padding: 0.35rem 0;
-  font-size: 0.95rem;
-  color: #444;
-}
 
 
 /* ===============================
