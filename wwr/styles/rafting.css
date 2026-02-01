@@ -133,11 +133,7 @@ article p {
   border-radius: 9px;     
   box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.3);
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 section h2 {
@@ -594,4 +590,38 @@ tbody tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-/* ===============================
+/* ===============================*/
+
+/* ================about page history====*/
+
+.flex-container {
+      display: flex;
+      
+      justify-content: center;
+  
+}
+
+.flex-item {
+    width: 250px;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     padding: 0.5rem;
+    background-color: #bbbbbb11;
+   
+}
+
+.item1 {
+   
+    min-width: 300px;
+    
+}
+
+.item2 {
+    
+    min-width: 350px;
+}
+
+.item3 {
+    
+    min-width: 300px;
+}
