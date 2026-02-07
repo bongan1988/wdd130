@@ -380,19 +380,13 @@ table {
   font-size: 0.95rem;
 }
 
-
-
 th,
 td {
   border: 1px solid #000;
   padding: 0.75rem 0.8rem;
   text-align: left;
-}
-
-th {
   font-weight: bold;
 }
-
 
 /* ================about page history====*/
 
