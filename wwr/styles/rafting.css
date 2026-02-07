@@ -83,6 +83,7 @@ footer {
   position: absolute;
   top: 20px;
   left: 20px;
+  background-color: #f1efef60;
   color: rgb(60, 60, 60); ;
 }
 
@@ -97,13 +98,12 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-
   width: 95%;
   height: 90%;
 
  
 }
- 
+
 
 .hero article img {
     float: right;
@@ -184,14 +184,12 @@ section figure:hover figcaption {
   width: 100%;
   background-color: hsla(200, 14%, 96%, 0.349);
   border-bottom: 2px solid #e6e6e6;
-}
-
+ }
 /* Flex container */
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px 30px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -206,52 +204,27 @@ section figure:hover figcaption {
 .main-nav {
   display: flex;
   gap: 40px;
-}
+  }
 .main-nav a {
   text-decoration: none;
-  font-weight: 900;
-  color: #70590c;
+  font-weight: 500;
+  color: #3d3d3a;
   font-size: 1.5rem;
+  
 }
 
 .main-nav a:hover {
-  color: #1f6fa5;
+  color: #c1cc9b;
   border-bottom: 2px solid #1f6fa5;
   padding-bottom: 4px;
 }
 /* Logo  and header css end*/
 /*##############################################################################*/
-.flex-columns {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-}
-.col-1 {
-    grid-column: span 1;
-}
-.col-2 {
-    grid-column: span 2;
-    
-}
-.col-2 img {
-    width: 600%;
-    height: auto;
-    border-radius: 9px;
-    display: block;
-    object-fit: cover;
-    justify-content: flex-start;
-    box-shadow: #090a0a 0px 4px 8px 0px, #090a0a 0px 6px 20px 0px;
-}
-.col-3 {
-  grid-column: span 3;
-  display: flex;
-  justify-content: flex-end;
-}
 
 
-.address {
-  text-align: center;
-}
+
+
+
 .info-box {
   border: 1px solid #eff2f5; /* border color */
   background-color: #f4f7f8; /* soft background */
@@ -316,20 +289,10 @@ section figure:hover figcaption {
   margin-bottom: 0;
   margin-top: 0;
   font-size: 2rem;
-  
-  
+    
 }
 
 
-
-/* Image styling */
-.team img {
-  width: 180px;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 10%;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
 
 .contact-container {
   max-width: 1300px;
@@ -401,58 +364,12 @@ button {
   cursor: pointer;
 }
 
-
-/* ===============================
-   GLOBAL RESET & BASE STYLES trips page
-================================ */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f5f5f5;
-  color: #222;
-  line-height: 1.6;
-}
-
-/* ===============================
-   MAIN LAYOUT
-================================ */
-main {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2.5rem 1.25rem;
-}
-
-/* ===============================
-   PAGE INTRO
-================================ */
-.page-intro {
-  text-align: center;
-  margin-bottom: 3.5rem;
-}
-
-.page-intro h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-
-.page-intro p {
-  max-width: 720px;
-  margin: 0 auto;
-  color: #555;
-  font-size: 1rem;
-}
-
 /* ===============================
    TRIPS GRID
 ================================ */
 .trips-grid {
   display: inline-grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
 }
 
@@ -460,15 +377,12 @@ main {
    TRIP CARD
 ================================ */
 
-
 .trip-card h2 {
   font-size: 1.4rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #cccccc;
   margin-bottom: 1rem;
 }
-
-
 
 /* ===============================
    BUTTONS
@@ -488,7 +402,6 @@ main {
   transform: translateY(-1px);
 }
 
-
 /* ===============================
    SECTION WRAPPER for the table
 ================================ */
@@ -500,14 +413,6 @@ main {
   justify-content: space-between;
 }
 
-/* ===============================
-   HEADING
-================================ */
-.trips-overview h2 {
-  text-align: center;
-  margin-bottom: 1.0rem;
-  font-size: 1.8rem;
-}
 
 /* ===============================
    TABLE STYLING
@@ -534,11 +439,6 @@ th {
   font-weight: bold;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-/* ===============================*/
 
 /* ================about page history====*/
 
@@ -548,32 +448,23 @@ tbody tr:nth-child(even) {
       justify-content: center;
   
 }
-
 .flex-item {
     width: 250px;
     margin: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
      padding: 0.2rem;
     background-color: #bbbbbb11;
-   
-}
-
+ }
 .item1 {
+       min-width: 300px;
    
-    min-width: 300px;
-    
 }
-
 .item2 {
-    
-    min-width: 350px;
+      min-width: 350px;
 }
-
 .item3 {
-    
-    min-width: 300px;
+        min-width: 300px;
 }
-
 
 
 table {
@@ -586,10 +477,6 @@ th {
   background: #003f5c;
   color: #fff;
   text-align: left;
-}
-
-td, th {
-  border: 1px solid #ccc;
 }
 
 .newsletter {
@@ -626,7 +513,7 @@ td, th {
   background: #ff7a18;
   color: #fff;
   cursor: pointer;
-  transition: background 0.3s ease;
+  
 }
 
 .newsletter-form button:hover {
