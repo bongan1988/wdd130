@@ -422,11 +422,7 @@ th {
 .item3 {
         min-width: 300px;
 }
-table {
-  border-collapse: collapse;
-  margin-top: 20px;
-  font-family: Arial, sans-serif;
-}
+
 
 th {
   background: #003f5c;
