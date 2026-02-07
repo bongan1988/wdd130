@@ -6,7 +6,6 @@
   --accent2-color: #000000;
     
 }
-
 a {
   color: var(--accent2-color);
 }
@@ -52,9 +51,7 @@ p,section,article{
     color: #fff
 }
 /*h1 declaration not in use affecting c page */
-  
-
-footer {
+  footer {
     margin-top: 1px;
     border-top: 1px solid #641e03;
     justify-content: space-between;
@@ -86,25 +83,18 @@ footer {
   background-color: #f1efef60;
   color: rgb(60, 60, 60); ;
 }
-
 .hero article {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  
 }
-
 .hero-overlay {     /* riverstone shadow */
   position: absolute;
   top: 0;
   left: 0;
   width: 95%;
   height: 90%;
-
- 
 }
-
-
 .hero article img {
     float: right;
     margin: 0 0 1rem 1rem;
@@ -125,15 +115,10 @@ article p {
   border-radius: 9px;     
   box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.3);
 }
-
-
-
 section h2 {
   grid-column: 1 / -1;
   text-align: center;
 }
-
-
 section {   /* section images */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -141,7 +126,6 @@ section {   /* section images */
   max-width: 900px;
   margin: 0 auto;
 }
-
 /* Figure setup */
 section figure {
   position: relative;
@@ -171,7 +155,6 @@ section figcaption {
   font-size: 0.9rem;
   text-align: center;
 }
-
 /* Optional hover polish */
 section figure:hover figcaption {
   background: rgba(0, 0, 0, 0.75);
@@ -194,12 +177,10 @@ section figure:hover figcaption {
   align-items: center;
   justify-content: space-between;
 }
-
 .logo img {
   height: 100px;
   width: auto;
 }
-
 /* Navigation */
 .main-nav {
   display: flex;
@@ -210,8 +191,7 @@ section figure:hover figcaption {
   font-weight: 500;
   color: #3d3d3a;
   font-size: 1.5rem;
-  
-}
+  }
 
 .main-nav a:hover {
   color: #c1cc9b;
@@ -220,11 +200,6 @@ section figure:hover figcaption {
 }
 /* Logo  and header css end*/
 /*##############################################################################*/
-
-
-
-
-
 .info-box {
   border: 1px solid #eff2f5; /* border color */
   background-color: #f4f7f8; /* soft background */
@@ -235,9 +210,6 @@ section figure:hover figcaption {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optional shadow */
   text-align: center;         /* center text inside box */
 }
-
-
-
 .info-box h3.address {
   margin: 0;
   font-weight: normal;
@@ -254,22 +226,19 @@ section figure:hover figcaption {
 /* Map container */
 .map {
   width: 100%;
-  max-width: 1500px;   /* control overall width */
+  max-width: 1000px;   /* control overall width */
   height: 450px;       /* adjust height here */
   margin: 0 auto;      /* center horizontally */
   border-radius: 8px;
   overflow: hidden;    /* keeps rounded corners */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
-
 /* Google map iframe */
 .map iframe {
   width: 100%;
   height: 100%;
   border: 0;
 }
-
-
 /* Center everything */
 .team section {
   max-width: 1200px;
@@ -289,11 +258,7 @@ section figure:hover figcaption {
   margin-bottom: 0;
   margin-top: 0;
   font-size: 2rem;
-    
-}
-
-
-
+ }
 .contact-container {
   max-width: 1300px;
   margin: 60px auto;
@@ -412,8 +377,6 @@ button {
   flex-direction: column;
   justify-content: space-between;
 }
-
-
 /* ===============================
    TABLE STYLING
 ================================ */
@@ -465,8 +428,6 @@ th {
 .item3 {
         min-width: 300px;
 }
-
-
 table {
   border-collapse: collapse;
   margin-top: 20px;
@@ -513,9 +474,7 @@ th {
   background: #ff7a18;
   color: #fff;
   cursor: pointer;
-  
-}
-
+ }
 .newsletter-form button:hover {
   background: #3f3d3bd0;
 }
