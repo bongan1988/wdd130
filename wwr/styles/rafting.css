@@ -66,14 +66,17 @@ p,section,article{
   flex-direction: column;
   justify-content: center;
    color: rgb(14, 13, 13);
-  
+   padding: 10px;
+    
 }
+
 
 .hero img {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
+  
      }
 
 .hero h1 {
@@ -232,6 +235,7 @@ section figure:hover figcaption {
   width: 100%;
   height: 100%;
   border: 0;
+  
 }
 /* Center everything */
 .team section {
@@ -242,7 +246,7 @@ section figure:hover figcaption {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 150px;              /* 👈 increase space between images */
+  gap: 100px;              /* 👈 increase space between images */
   flex-wrap: wrap;
 }
 
