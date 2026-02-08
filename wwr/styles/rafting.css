@@ -91,7 +91,7 @@ p,section,article{
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #f1efef60;
-  color: rgb(60, 60, 60);
+  color: rgb(10, 10, 10);
   font-size: 2rem;      /* makes text bigger */
   padding: 20px 32px;  /* space around text */
   border-radius: 16px; /* elegant look */
@@ -175,7 +175,7 @@ section figure:hover figcaption {
 /* Header wrapper */
 .site-header {
   width: 100%;
-  background-color:rgba(117, 85, 85, 0.11);
+  background-color:rgba(235, 230, 230, 0.171);
   border-bottom: 2px solid #e6e6e6;
  }
 /* Flex container */
