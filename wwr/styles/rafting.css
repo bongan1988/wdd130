@@ -106,12 +106,12 @@ p,section,article{
 }
 article img {
   background-color: rgba(16, 17, 17, 0.37);; 
-  padding: 8px;                              
+  padding: 2px;                              
   border-radius: 8px;                        
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.25);
 }
 article p {
-  background-color: rgba(230, 149, 9, 0.322);
+  background-color: rgba(143, 139, 134, 0.075);
   padding: 3rem;          
   margin: 0;              
   border-radius: 9px;     
@@ -121,7 +121,8 @@ section h2 {
   grid-column: 1 / -1;
   text-align: center;
 }
-section {   /* section images */
+
+section {   /* section images to change and sepate from home page*/
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
@@ -167,7 +168,7 @@ section figure:hover figcaption {
 /* Header wrapper */
 .site-header {
   width: 100%;
-  background-color: hsla(200, 14%, 96%, 0.349);
+  background-color:rgba(128, 128, 128, 0.11);
   border-bottom: 2px solid #e6e6e6;
  }
 /* Flex container */
@@ -245,13 +246,10 @@ section figure:hover figcaption {
 /* Center everything */
 .team section {
   max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-
+    text-align: center;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 100px;              /* 👈 increase space between images */
+   gap: 100px;              /* 👈 increase space between images */
   flex-wrap: wrap;
 }
 
@@ -336,9 +334,13 @@ button {
    TRIPS GRID
 ================================ */
 .trips-grid {
-  display: inline-grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: grid; /* change from inline-grid to grid */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
+  width: 100%;       /* make the grid take full container width */
+  max-width: 1200px; /* optional: constrain max width for large screens */
+  margin: 0 auto;    /* center grid if max-width is used */
+  padding: 0 20px;   /* optional: horizontal padding */
 }
 
 /* ===============================
@@ -347,7 +349,7 @@ button {
 
 .trip-card h2 {
   font-size: 1.4rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.1rem;
   border-bottom: 2px solid #cccccc;
   margin-bottom: 1rem;
 }
@@ -424,8 +426,8 @@ td {
 }
 
 th {
-  background: #003f5c;
-  color: #fff;
+  background: #979ea1ce;
+  color: #292222;
  }
 
 .newsletter {
