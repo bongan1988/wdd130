@@ -35,18 +35,21 @@ p,section,article{
     padding: 8px;
 }
 .socialmedia {
-    text-decoration: none;
-    text-align: right;
-       
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  z-index: 1000;
 }
+
 /* h1 declaration not in use affecting c page */
 .h1 {
     position:absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 66px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.2;
     background-color: var(--accent1-color);
     color: #fff
 }
@@ -67,7 +70,7 @@ p,section,article{
   justify-content: center;
    color: rgb(14, 13, 13);
    padding: 10px;
-    
+       
 }
 * {
   margin: 0;
@@ -75,26 +78,30 @@ p,section,article{
   box-sizing: border-box;
 }
 
-
 .hero img {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
-  
-     }
-
+  border-radius: 36px;
+}
 .hero h1 {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #f1efef60;
-  color: rgb(60, 60, 60); ;
+  color: rgb(60, 60, 60);
+  font-size: 2rem;      /* makes text bigger */
+  padding: 20px 32px;  /* space around text */
+  border-radius: 16px; /* elegant look */
+  text-align: center;
 }
+
 .hero article {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 40px;
+  left: 40px;
 }
 
 .hero article img {
@@ -112,7 +119,7 @@ article img {
 }
 article p {
   background-color: rgba(143, 139, 134, 0.075);
-  padding: 3rem;          
+  padding: 1rem;          
   margin: 0;              
   border-radius: 9px;     
   box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.3);
@@ -168,7 +175,7 @@ section figure:hover figcaption {
 /* Header wrapper */
 .site-header {
   width: 100%;
-  background-color:rgba(128, 128, 128, 0.11);
+  background-color:rgba(117, 85, 85, 0.11);
   border-bottom: 2px solid #e6e6e6;
  }
 /* Flex container */
@@ -184,6 +191,7 @@ section figure:hover figcaption {
   height: 100px;
   width: auto;
 }
+
 /* Navigation */
 .main-nav {
   display: flex;
@@ -210,8 +218,8 @@ section figure:hover figcaption {
   max-width: 700px;           /* optional: box width */
   margin: 20px auto;          /* center box on page */
   border-radius: 0px;        /* rounded corners */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optional shadow */
-  text-align: center;         /* center text inside box */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  text-align: center;         
 }
 .info-box h3.address {
   margin: 0;
