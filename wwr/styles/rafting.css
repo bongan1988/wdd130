@@ -475,4 +475,9 @@ th {
 .newsletter-form button:hover {
   background: #3f3d3bd0;
 }
-
+.newsletter-form label {
+    min-width: 80px;
+    font-weight: 600;
+    display: inline-block;
+    
+}
