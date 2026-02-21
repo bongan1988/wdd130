@@ -438,11 +438,11 @@ tr:nth-child(even) {
 .newsletter {
   background: #f4f8fb;
   padding: 3rem 1rem;
-  text-align: center;
+  text-align: right;
 }
 
 .newsletter-form {
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -455,7 +455,7 @@ tr:nth-child(even) {
 .form-group label {
   width: 80px;
   font-weight: bold;
-  text-align: left;
+  text-align: right;
 }
 
 .form-group input {
