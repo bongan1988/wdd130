@@ -137,15 +137,24 @@
     </main>
     <section class="newsletter">
         <div class="container">
-            <h3>Sign-up to Our Newsletter</h3><br>
+            <h3>Join Our Adventure Newsletter</h3><br>
+
             <form action="#" method="post" class="newsletter-form">
-                <label for="name">Name</label>
-                <input type="text" name="name" placeholder="Your Name" required>
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Your Email" required>
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
                 <button type="submit" class="signup-btn">
                     Join Our Community
                 </button>
+
             </form>
         </div>
     </section>

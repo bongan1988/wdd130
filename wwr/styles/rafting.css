@@ -436,54 +436,47 @@ tr:nth-child(even) {
 }
 
 .newsletter {
-  background: #686a6b86;
-  color: #1f1414;
-  padding: 0px 20px;
-  text-align: var(--heading-font);
-  border-radius: 12px;
-  max-width: 300px;
-  margin: 40px auto;
+  background: #f4f8fb;
+  padding: 3rem 1rem;
+  text-align: center;
 }
 
 .newsletter-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-.newsletter-form input {
-  padding: 12px 15px;
-  font-size: 16px;
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  width: 80px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 0.6rem;
   border-radius: 6px;
-  border: none;
-  flex: 1 1 200px;
-  max-width: 250px;
+  border: 1px solid #ccc;
 }
 
 .signup-btn {
-  width: 100%;
-  padding: 1rem;
-  background: #2563eb;
-  color: #fff;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
   border: none;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  font-weight: 600;
+  border-radius: 6px;
+  background-color: #0077cc;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
-.newsletter-form button:hover {
-  background: #3f3d3bd0;
+.signup-btn:hover {
+  background-color: #005fa3;
 }
-.newsletter-form label {
-    min-width: 80px;
-    font-weight: 600;
-    
-}
-
-
-
-
-
-
